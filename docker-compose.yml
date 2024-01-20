@@ -1,10 +1,13 @@
 version: '3.9'
 services:
   moodist:
-    image: ghcr.io/remvze/moodist
+    image: geekyuth/moodist:v1.2.0
+    build:
+      context: .
+      dockerfile: Dockerfile
     logging:
       options:
-        max-size: 1g
-    restart: always
+        max-size: 100m
+    restart: unless-stopped
     ports:
       - '8080:8080'
