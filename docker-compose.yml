@@ -1,7 +1,7 @@
 version: '3.9'
 services:
   moodist:
-    image: geekyuth/moodist:v1.2.0
+    image: geekyouth/moodist:v1.2.0
     build:
       context: .
       dockerfile: Dockerfile
