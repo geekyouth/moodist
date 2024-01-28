@@ -13,7 +13,7 @@
 ---
 
 # docker hub image
-<a href="https://moodist.vercel.app" target="_blank">https://hub.docker.com/r/geekyouth/moodist</a>
+<a href="https://hub.docker.com/r/geekyouth/moodist" target="_blank">https://hub.docker.com/r/geekyouth/moodist</a>
 
 # docker-compose.yaml
 ```
@@ -27,7 +27,6 @@ services:
     restart: unless-stopped
     ports:
       - '8080:8080'
-
 ```
 
 # docker cli
