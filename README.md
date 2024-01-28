@@ -29,3 +29,8 @@ services:
       - '8080:8080'
 
 ```
+
+# docker cli
+```
+docker run -d --restart=unless-stopped -p 8080:8080 --name moodist  geekyouth/moodist:v1.2.0
+```
